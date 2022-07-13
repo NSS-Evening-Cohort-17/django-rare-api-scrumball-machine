@@ -1,10 +1,10 @@
 [
     {
-        "model": "rareapi.user",
+        "model": "rareapi.rareuser",
         "pk": 1,
         "fields": {
             "user": 1,
-            "bio": "Me"
+            "bio": "we"
         }
     }
 ]

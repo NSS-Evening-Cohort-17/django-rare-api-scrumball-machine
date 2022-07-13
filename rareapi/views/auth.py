@@ -5,7 +5,7 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 
-from rareapi.models import User
+from rareapi.models import RareUser
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
@@ -39,11 +39,11 @@ def register_user(request):
     )
 
 
-    user = User.objects.create(
+    rareuser = RareUser.objects.create(
         bio=request.data['bio'],
         user=new_user
     )
 
-    token = Token.objects.create(user=user.user)
+    token = Token.objects.create(user=rareuser.user)
     data = { 'token': token.key }
     return Response(data)

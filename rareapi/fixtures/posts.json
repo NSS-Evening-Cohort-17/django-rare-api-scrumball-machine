@@ -3,7 +3,7 @@
         "model": "rareapi.post",
         "pk": 1,
         "fields": {
-            "user": 1,
+            "rareuser": 1,
             "category": 1,
             "title": "This is my first post",
             "publication_date": "2022-07-04",
