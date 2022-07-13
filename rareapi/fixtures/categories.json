@@ -1,0 +1,37 @@
+[
+    {
+        "model": "rareapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "funny"
+        }
+    },
+    {
+        "model": "rareapi.category",
+        "pk": 2,
+        "fields": {
+            "label": "scary"
+        }
+    },
+    {
+        "model": "rareapi.category",
+        "pk": 3,
+        "fields": {
+            "label": "informative"
+        }
+    },
+    {
+        "model": "rareapi.category",
+        "pk": 4,
+        "fields": {
+            "label": "political"
+        }
+    },
+    {
+        "model": "rareapi.category",
+        "pk": 5,
+        "fields": {
+            "label": "sports"
+        }
+    }
+]

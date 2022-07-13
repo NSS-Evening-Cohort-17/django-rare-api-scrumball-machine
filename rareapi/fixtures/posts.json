@@ -1,0 +1,15 @@
+[
+    {
+        "model": "rareapi.post",
+        "pk": 1,
+        "fields": {
+            "rareuser": 1,
+            "category": 1,
+            "title": "This is my first post",
+            "publication_date": "2022-07-04",
+            "image_url": "https://media.giphy.com/media/3oEjHI8WJv4x6UPDB6/giphy.gif",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nunc varius, porttitor sem id, pulvinar nisl. Class aptent taciti sociosqu ad.",
+            "approved": true
+        }
+    }
+]

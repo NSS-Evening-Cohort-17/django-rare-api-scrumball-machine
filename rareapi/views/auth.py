@@ -39,11 +39,12 @@ def register_user(request):
     )
 
 
-    rare_user = RareUser.objects.create(
+    rareuser = RareUser.objects.create(
         bio=request.data['bio'],
         user=new_user
     )
 
-    token = Token.objects.create(user=rare_user.user)
+
+    token = Token.objects.create(user=rareuser.user)
     data = { 'token': token.key }
     return Response(data)
