@@ -44,6 +44,7 @@ def register_user(request):
         user=new_user
     )
 
+
     token = Token.objects.create(user=rareuser.user)
     data = { 'token': token.key }
     return Response(data)
